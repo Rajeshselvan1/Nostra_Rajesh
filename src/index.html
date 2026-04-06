@@ -10,22 +10,22 @@
 
 <body>
     <!-- Splash Banner and Nav Bar -->
-    <header>
+    <header class=" sticky z-10 top-0">
         <div
             class="bg-black text-white h-30px top-0 text-sm md:text-base lg:text-lg w-full flex items-center justify-center relative">
             <h1 class="text-center">Sign Up and <b>GET 20% OFF </b> for your first Order</h1>
             <h1 class="cursor-pointer p-3"><b>X</b></h1>
         </div>
-        <nav class="flex justify-between items-center px-6">
+        <nav class="flex justify-between items-center px-6 bg-white pb-3">
 
             <h1 class="text-5xl font-bold">Nostra</h1>
 
             <div class="hidden gap-6 items-center top-1 md:flex ml-auto ">
-                <a href="index.html">Home</a>
-                <a href="about.html">New Arrival</a>
-                <a href="contact.html">Most Wanted</a>
-                <a href="contact.html">Collections</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="./index.html">Home</a>
+                <a href="#new-arrival">New Arrival</a>
+                <a href="#most_wanted">Most Wanted</a>
+                <a href="./collections.html">Collections</a>
+                <a href="./contactus.html">Contact Us</a>
             </div>
             <!-- Navigation Icon -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -176,7 +176,7 @@
     </section>
 
     <!-- New Arrival -->
-    <Section class="p-5">
+    <Section id="new-arrival" class="p-5 scroll-mt-20">
         <h1 class="text-3xl font-bold">New Arrivals</h1>
         <div class="flex mt-5 justify-between">
             <div class="relative p-5">
@@ -207,7 +207,7 @@
     </Section>
 
     <!-- Most Wanted -->
-    <section class="p-5">
+    <section id="most_wanted" class="p-5 scroll-mt-20">
         <h1 class="text-3xl font-bold">Most Wanted</h1>
         <div class="flex mt-5 justify-between">
             <div class="relative p-5">
